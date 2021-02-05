@@ -18,6 +18,7 @@ def part1(data):
         x = (x + 3) % map_width
     return collisions 
 
+
 print("Solution part 1: %d" % part1(data))
 # Part 2
 def part2(data, x_slope, y_slope):
